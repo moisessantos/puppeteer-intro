@@ -1,0 +1,35 @@
+{
+  "name": "puppeteer-intro",
+  "private": true,
+  "description": "Page objects to discover and interact with the DOM and puppeteer",
+  "main": "src/page-components/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest --detectOpenHandles"
+  },
+  "keywords": [
+    "puppeteer",
+    "page-object"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moisessantos/puppeteer-intro.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/runtime": "^7.3.1",
+    "eslint": "^5.13.0",
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "puppeteer": "^1.12.2"
+  },
+  "engines": {
+    "node": ">8.0.0",
+    "npm": ">6.0.0"
+  }
+}
