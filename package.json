@@ -22,7 +22,7 @@
     "@babel/preset-env": "^7.3.1",
     "@babel/runtime": "^7.3.1",
     "eslint": "^5.13.0",
-    "jest": "^24.1.0"
+    "jest": "^26.6.1"
   },
   "dependencies": {
     "axios": "^0.18.0",
